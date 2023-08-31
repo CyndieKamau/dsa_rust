@@ -1,5 +1,5 @@
 //Rust Profile for Checking User's Profile and Details
-use std::io::{self, Write};
+use std::io::{self, Write};  //imports std::io; and std::io::Write for io::stdout().flush()
 
 #[derive(Debug)]
 struct UserProfile {

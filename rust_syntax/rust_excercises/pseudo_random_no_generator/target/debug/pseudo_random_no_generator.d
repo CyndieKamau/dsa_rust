@@ -1,0 +1,1 @@
+/home/hp/Desktop/dsa_rust/rust_syntax/rust_excercises/pseudo_random_no_generator/target/debug/pseudo_random_no_generator: /home/hp/Desktop/dsa_rust/rust_syntax/rust_excercises/pseudo_random_no_generator/src/main.rs

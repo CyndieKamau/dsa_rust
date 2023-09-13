@@ -34,16 +34,23 @@ This repository provides a collection of commonly used algorithms and data struc
 Clone the repo
 
 ```sh
+https://github.com/CyndieKamau/dsa_rust.git
+
 ```
 
 Navigate to the repo
 
+Example; To run the `linear_search_algorithms` directory;
+
 ```sh
+cd linear_search_algorithms
+
 ```
 
 If you have cargo set up
 
 ```sh
+cargo build
 ```
 
 

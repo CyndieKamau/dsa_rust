@@ -11,7 +11,26 @@
 
 fn bubble_sort(array: &mut[i32]) {
 
-    
+    let mut arr = array.len();    //getting the length determines no of iteration times
+
+    let mut swapped;    //we'll use this to check if items have swapped or not
+
+    loop {
+
+        swapped = false;   //no initial swapping has occured
+
+        for i in 1..n {
+
+            if arr[i-1] > arr[i] {
+
+                arr.swap(i - 1, i);
+                swapped = true; 
+
+            }
+
+        }
+  
+    }
 
 
 }  

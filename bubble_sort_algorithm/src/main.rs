@@ -19,11 +19,11 @@ fn bubble_sort(array: &mut[i32]) {
 
         swapped = false;   //no initial swapping has occured
 
-        for i in 1..n {
+        for i in 1..arr {
 
-            if arr[i-1] > arr[i] {
+            if array[i-1] > array[i] {
 
-                arr.swap(i - 1, i);
+                array.swap(i - 1, i);
                 swapped = true;
 
             }
@@ -33,7 +33,7 @@ fn bubble_sort(array: &mut[i32]) {
 
         //after each pass the largest number is sorted, so reduce n by 1
 
-        n = n.saturating_sub(1);
+        arr = arr.saturating_sub(1);
 
         if !swapped {
 
@@ -50,5 +50,10 @@ fn bubble_sort(array: &mut[i32]) {
 
 
 fn main() {
-    println!("Hello, world!");
+    let mut numbers = [2,10,8,4,6,1,7,5];
+    println!("Before: {:?}", numbers);
+
+    bubble_sort(&mut numbers);
+    println!("After: {:?}", numbers);
+
 }

@@ -24,9 +24,20 @@ fn bubble_sort(array: &mut[i32]) {
             if arr[i-1] > arr[i] {
 
                 arr.swap(i - 1, i);
-                swapped = true; 
+                swapped = true;
 
             }
+
+        }
+
+
+        //after each pass the largest number is sorted, so reduce n by 1
+
+        n = n.saturating_sub(1);
+
+        if !swapped {
+
+            break;
 
         }
   

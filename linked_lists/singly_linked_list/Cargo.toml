@@ -1,5 +1,5 @@
 [package]
-name = "linked_lists"
+name = "singly_linked_list"
 version = "0.1.0"
 edition = "2021"
 
